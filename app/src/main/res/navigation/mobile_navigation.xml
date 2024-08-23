@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nehal24.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.nehal24.ui.Profile.profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.nehal24.ui.MenuManagement.MenuManagementFragment"
+        tools:layout="@layout/fragment_menumanagement" />
+    <fragment
+        android:id="@+id/nav_viewDonations"
+        android:name="com.example.nehal24.ui.ViewDonation.viewdonation"
+        tools:layout="@layout/fragment_viewdonation" />
+    <fragment
+        android:id="@+id/nav_donateFood"
+        android:name="com.example.nehal24.ui.DonateFood.donatefood"
+
+        android:label="@string/menu_Donate_Food"
+        tools:layout="@layout/fragment_donatefood" />
+    <fragment
+        android:id="@+id/nav_donationHistory"
+        android:name="com.example.nehal24.ui.donationHistory.donationHistory"
+
+        tools:layout="@layout/fragment_donationhistory" />
+    <fragment
+        android:id="@+id/nav_helpSupport"
+        android:name="com.example.nehal24.ui.HelpAndSupport.helpandsupport"
+
+        tools:layout="@layout/fragment_helpadsupport" />
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.nehal24.ui.Notification.notification"
+        tools:layout="@layout/fragment_notification" />
+
+
+</navigation>

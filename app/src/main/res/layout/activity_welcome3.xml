@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/kl2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome3Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:text="Welcome to Donate Dine! \nSay goodbye to food waste and hello to a more sustainable future. Let's work together to reduce our carbon footprint and make a positive impact on the environment. Thank you for joining us in this important mission."
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@color/textcolor"
+            android:onClick="nehal4"
+            android:text="NGO"
+            android:textAlignment="center"
+            android:textColor="@color/primarycolor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton2"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@color/textcolor"
+            android:onClick="nehal3"
+            android:text="Restaurant"
+            android:textColor="@color/primarycolor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,TextSizeCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton3"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@color/textcolor"
+            android:onClick="nehal5"
+            android:text="Volunteer"
+            android:textColor="@color/primarycolor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

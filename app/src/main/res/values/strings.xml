@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Donate Dine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Donate Dine</string>
+    <string name="nav_header_subtitle">donatedine@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_gallery">Profile</string>
+    <string name="menu_slideshow">Menu Management</string>
+    <string name="menu_menu_Management">Menu Management</string>
+    <string name="menu_Donate_Food">Donate Food</string>
+    <string name="menu_menu_View_Donation">View Donation</string>
+    <string name="menu_Donation_History">Donation History </string>
+    <string name="menu_menu_Help_and_Support">Help  and Support</string>
+    <string name="menu_RequestFood">Request Food</string>
+    <string name="menu_history">Donation History</string>
+    <string name="menu_NearbydonationCenters">Near by Donation Centers</string>
+    <string name="menu_AboutUS">About Us</string>
+    <string name="menu_Contactus">Contact US</string>
+    <string name="menu_Notifications">Notifications</string>
+    <string name="menu_thanking">Thanking Latter</string>
+
+
+    <string name="fab_description">Add new item</string>
+    <string name="forgot_password_emoji">Forgot Password Emoji</string>
+    <string name="experience_the_power_of_unity_as_we_come_together_to_uplift_lives_share_stories_of_change_and_celebrate_the_spirit_of_giving_your_presence_can_light_up_a_future">Experience the power of unity as we come together to uplift lives, share stories of change, and celebrate the spirit of giving. Your presence can light up a future!</string>
+    <string name="celebrate_with_us_our_ngo_hosts_and_participates_in_various_festivals_that_bring_communities_together">Celebrate with us! Our NGO hosts and participates in various festivals that bring communities together...</string>
+    <string name="christmas_festivals">Christmas Festivals</string>
+    <string name="diwali_festivals">Diwali Festivals</string>
+    <string name="cultural_festivals">Cultural Festivals</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+</resources>

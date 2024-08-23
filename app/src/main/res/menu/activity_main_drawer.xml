@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/receipt"
+            android:title="@string/menu_menu_Management" />
+        <item
+            android:id="@+id/nav_viewDonations"
+            android:icon="@drawable/charity"
+            android:title="@string/menu_menu_View_Donation" />
+        <item
+            android:id="@+id/nav_donateFood"
+            android:icon="@drawable/food"
+            android:title="@string/menu_Donate_Food" />
+        <item
+            android:id="@+id/nav_donationHistory"
+            android:icon="@drawable/baseline_history_24"
+            android:title="@string/menu_Donation_History" />
+        <item
+            android:id="@+id/nav_helpSupport"
+            android:icon="@drawable/baseline_help_24"
+            android:title="@string/menu_menu_Help_and_Support" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/baseline_circle_notifications_24"
+            android:title="@string/menu_Notifications" />
+    </group>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark">#536b69</color>
+    <color name="primarycolor">#41765E</color>
+    <color name="secondarycolor">#EDFFE1</color>
+    <color name="textcolor">#DCE7D4</color>
+    <color name="bgcolor">#FF9B9B</color>
+    <color name="name">#FFDFD6</color>
+    <color name="nehal">#B692C2</color>
+    <color name="nehal2">#0E2E2A</color>
+    <color name="nehal3">#522258</color>
+    <color name="nehal4">#8C3061</color>
+    <color name="nehal5">#C63C51</color>
+    <color name="nehal6">#D95F59</color>
+    <color name="dark_slate_blue">#483D8B</color>
+    <color name="light_coral">#F08080</color>
+    <color name="slate_gray">#708090</color>
+    <color name="coral">#FF7F50</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="medium_orchid">#BA55D3</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="button_color">#03DAC5</color>
+    <color name="primary">#543310</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="on_secondary">#000000</color>
+    <color name="Primaryf">#FFB22C</color>
+    <color name="PrimaryDark2">#6A4F19</color>
+    <color name="AccentColor">#4A90E2 </color>
+    <color name="Background">#F7F7F7</color>
+    <color name="Header">#8B5E3C</color>
+    <color name="Button"> #C2A480</color>
+    <color name="Card" >#FAEBD7</color>
+    <color name="Borders">#E8D9C8</color>
+
+
+</resources>

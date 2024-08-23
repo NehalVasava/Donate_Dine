@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nehal24"
+        tools:targetApi="31">
+        <activity
+            android:name=".forgotpass"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBVmLj30fSeZnv03OEOXT04sCcPYViDNas" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".voluneer_log"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".voluneer_regi"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".enmgenry"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".upcoming"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".callobration"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".thanking_ngo"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".Allocation"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".check"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".availability"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".livetracking"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ride"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".voluneerpr"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ngo_history"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".request"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".voluneerMain"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ngo_vision"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ngo_fastival"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ngo_enevt"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".ngo_profile"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".log_ngo"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".NGOHomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".regi_ngo"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".view_item"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".AddNewItem"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".welcome3Activity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".LogResActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".RegiResActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".welcome2Activity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+        <activity
+            android:name=".slpashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Nehal24.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Nehal24.NoActionBar" />
+    </application>
+
+</manifest>
